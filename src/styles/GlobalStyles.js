@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 
 :root {
-    --color-bg-ivory: #E9E7E3; /* Luxury Light Gray */
+    --color-bg: #fbfbfbff; /* Luxury Light Gray */
     --color-white: #ffffff;      /* for text/buttons on purple */
     --color-primary-001: #B89B79; /* Dark Champagne Beige */
     --color-primary-002: #9E7E5F; /* Rich Warm Taupe */
