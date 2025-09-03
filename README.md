@@ -11,7 +11,7 @@ This project is a modern and professional hotel reservation website built with J
 - **Styling & UI:** Tailwind CSS, Bootstrap 
 
 ## 📄 Documentation  
-- **Project requirements** - [Requirements Document](./docs/REQUIREMENTS.md)
+- **Project requirements** - [Requirements Document](./docs/Requirements.md)
 
 ## 📚 References  
 - **React** – [React Docs](https://react.dev/)  
