@@ -1,0 +1,27 @@
+const countryMap = {
+  GB: { name: "United Kingdom", flag: "https://flagcdn.com/gb.svg" },
+  CA: { name: "Canada", flag: "https://flagcdn.com/ca.svg" },
+  IT: { name: "Italy", flag: "https://flagcdn.com/it.svg" },
+  DE: { name: "Germany", flag: "https://flagcdn.com/de.svg" },
+  PK: { name: "Pakistan", flag: "https://flagcdn.com/pk.svg" },
+  ES: { name: "Spain", flag: "https://flagcdn.com/es.svg" },
+  JP: { name: "Japan", flag: "https://flagcdn.com/jp.svg" },
+  EG: { name: "Egypt", flag: "https://flagcdn.com/eg.svg" },
+  US: { name: "United States", flag: "https://flagcdn.com/us.svg" },
+  FR: { name: "France", flag: "https://flagcdn.com/fr.svg" },
+  BR: { name: "Brazil", flag: "https://flagcdn.com/br.svg" },
+  KR: { name: "South Korea", flag: "https://flagcdn.com/kr.svg" },
+  AU: { name: "Australia", flag: "https://flagcdn.com/au.svg" },
+  MX: { name: "Mexico", flag: "https://flagcdn.com/mx.svg" },
+  NZ: { name: "New Zealand", flag: "https://flagcdn.com/nz.svg" },
+  SE: { name: "Sweden", flag: "https://flagcdn.com/se.svg" },
+  IN: { name: "India", flag: "https://flagcdn.com/in.svg" },
+  BE: { name: "Belgium", flag: "https://flagcdn.com/be.svg" },
+  SG: { name: "Singapore", flag: "https://flagcdn.com/sg.svg" },
+  PT: { name: "Portugal", flag: "https://flagcdn.com/pt.svg" },
+  AE: { name: "UAE", flag: "https://flagcdn.com/ae.svg" },
+  LB: { name: "Lebanon", flag: "https://flagcdn.com/lb.svg" },
+  VN: { name: "Vietnam", flag: "https://flagcdn.com/vn.svg" },
+};
+
+export default countryMap;
