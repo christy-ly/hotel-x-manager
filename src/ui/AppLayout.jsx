@@ -7,12 +7,14 @@ const Main = styled.main`
   background-color: var(--color-bg);
   padding: 3rem 3.8rem 8.4rem;
 `;
+
 const StyledAppLayout = styled.div`
   display: grid;
   grid-template-columns: 12rem 1fr;
   grid-template-rows: auto 1fr;
   height: 100vh;
 `;
+
 function AppLayout() {
   return (
     <StyledAppLayout>
