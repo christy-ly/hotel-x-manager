@@ -18,27 +18,32 @@ const NavList = styled.ul`
 
 const StyledNavLink = styled(NavLink)`
   text-decoration: none;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-weight: 200;
+
   &:link,
   &:visited {
     display: flex;
     align-items: center;
     gap: 1.2rem;
-
-    color: var(--color-grey-600);
-    font-size: 1.1rem;
-    font-weight: 500;
+    color: var(--text-color);
+    font-size: 1rem;
     padding: 0.6rem;
     transition: all 0.3s;
     width: 100%;
   }
 
-  &:hover,
+  &:hover {
+    color: var(--color-primary-hover);
+    border-bottom: 2px solid var(--color-primary-hover);
+  }
+
   &:active,
   &.active:link,
   &.active:visited {
-    color: var(--color-secondary-001);
-    background-color: var(--color-primary-001);
-    border-radius: var(--border-radius-sm);
+    color: var(--color-primary-active);
+    border-bottom: 2px solid var(--color-primary-active);
   }
 `;
 

@@ -7,12 +7,12 @@ const TableRow = styled.div`
   column-gap: 1.2rem;
   justify-items: center;
   align-items: center;
-  color: var(--color-grey-600);
+  color: var(--text-color);
   background-color: var(--color-white);
   padding: 1rem 2rem;
 
   &:not(:last-child) {
-    border-bottom: 1px solid var(--color-grey-100);
+    border-bottom: 1px solid var(--color-border-golden);
   }
 `;
 

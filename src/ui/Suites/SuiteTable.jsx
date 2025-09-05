@@ -15,10 +15,10 @@ const TableHeader = styled.header`
   column-gap: 1.2rem;
   justify-items: center;
   background-color: var(--color-white);
-  border-bottom: 2px solid var(--color-primary-001);
+  border-bottom: 3px solid var(--color-border-golden);
   letter-spacing: 0.8px;
   font-weight: 400;
-  color: var(--color-grey-600);
+  color: var(--text-color);
   padding: 1rem 1rem;
 `;
 

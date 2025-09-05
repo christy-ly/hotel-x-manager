@@ -3,17 +3,32 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 
 :root {
-    --color-bg: #fbfbfbff; /* Luxury Light Gray */
-    --color-white: #ffffff;      /* for text/buttons on purple */
-    --color-primary-001: #B89B79; /* Dark Champagne Beige */
-    --color-primary-002: #9E7E5F; /* Rich Warm Taupe */
-    --color-primary-003: #7F6247; /* Deep Mocha Beige */
-    --color-secondary-001: #F3F0EB; /* Warm Gray Light */
-    --color-secondary-002: #A89F91; /* Warm Gray Medium */
-    --color-secondary-003: #6E665C; /* Warm Gray Dark */
+
+    --color-border-black: #333;
+    --color-border-white: #fff;
+    --color-border-golden: #e0aa14;
+
+    --color-text-black: #333;
+    --color-text-white: #fff;
+
+    --color-bg-black: #333;
+    --color-bg-white: #ccc;
+
+    --diabaled-bg: #ccc;
+    --diabaled-color: #fff;
+    --diabaled-dark-bg: #f5f5f5;
+    --diabaled-dark-color: rgba(0, 0, 0, 0.25);
+
+    --color-primary-color: #e0aa14;
+    --color-primary-active: #cc9a0d;
+    --color-primary-hover: #f6bc19;
+
+    --color-primary-color: #e0aa14;
+    --color-primary-active: #cc9a0d;
+    --color-primary-hover: #f6bc19;
 
     /* Grey */
-    --color-grey-0: #fff;
+    --color-grey-0: #fffff;
     --color-grey-50: #f9fafb;
     --color-grey-100: #f3f4f6;
     --color-grey-200: #e5e7eb;
@@ -54,7 +69,7 @@ html {
 }
 
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: "Montserrat", "Verdana", "Helvetica", "Arial", "sans-serif";
     background: var(--color-bg-ivory);
     color: var(--color-dark);
     transition: color 0.3s, background-color 0.3s;

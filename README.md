@@ -13,7 +13,6 @@ This project is a modern and professional hotel reservation website built with J
 ## Features
 ### Frontend Development
 - Use **styled-components** for modular, reusable, and scoped UI styling
-- Organized folder structure for better maintainability
 
 ### Database / Data Handling
 - Use **React Query** to fetch, cache, and manage server-side data efficiently
