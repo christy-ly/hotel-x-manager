@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
 function Header() {
   return (
     <StyledHeader>
-      <Heading as="h3">Hotel X</Heading>
+      <Heading as="h3">Hotel X Manager</Heading>
     </StyledHeader>
   );
 }
