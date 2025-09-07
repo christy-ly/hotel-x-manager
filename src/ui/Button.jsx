@@ -1,9 +1,17 @@
 import styled, { css } from "styled-components";
 
 const sizes = {
+  xs: css`
+    margin: 0.1rem;
+    font-size: 0.6rem;
+    padding: 0.2rem 0.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  `,
   small: css`
     font-size: 0.8rem;
-    padding: 0.4rem 0.8rem;
+    padding: 0.6rem 0.8rem;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
@@ -22,45 +30,56 @@ const sizes = {
 
 const variations = {
   primary: css`
-    color: var(--color-secondary-001);
-    background-color: var(--color-primary-001);
+    border: 1px solid var(--color-primary-normal);
+    background-color: var(--color-bg-white);
+    color: var(--color-primary-normal);
 
     &:hover {
-      background-color: var(--color-primary-002);
+      border: 1px solid var(--color-primary-normal);
+      background-color: var(--color-primary-normal);
+      color: var(--color-bg-white);
     }
   `,
   secondary: css`
-    color: var(--color-primary-003);
-    background: var(--color-secondary-001);
-    border: 1px solid var(--color-grey-200);
+    border: 1px solid var(--color-primary-normal);
+    background-color: var(--color-primary-normal);
+    color: var(--color-bg-white);
 
     &:hover {
-      background-color: var(--color-secondary-002);
+      border: 1px solid var(--color-primary-normal);
+      background-color: var(--color-bg-white);
+      color: var(--color-primary-normal);
     }
   `,
   danger: css`
-    color: var(--color-red-100);
-    background-color: var(--color-red-700);
-
+    border: 1px solid var(--color-red-800);
+    background-color: var(--color-bg-white);
+    color: var(--color-red-800);
     &:hover {
+      border: 1px solid var(--color-red-800);
       background-color: var(--color-red-800);
+      color: var(--color-bg-white);
+    }
+
+    &:disabled {
+      border: 1px solid var(--color-bg-ivory);
+      background-color: var(--color-red-800);
+      color: var(--color-bg-white);
     }
   `,
 };
 
 const Button = styled.button`
-  font-family: "Playfair Display", serif;
-  border: none;
-  border-radius: var(--border-radius-sm);
-  background-color: var(--color-primary-001);
+  font-family: var(--font-button);
   box-shadow: var(--shadow-sm);
-  margin: 1rem;
+
   ${(props) => sizes[props.size]}
-  ${(props) => variations[props.variations]}
+  ${(props) => variations[props.variation]}
 `;
 
 Button.defaultProps = {
   size: "small",
-  variations: "primary",
+  variation: "primary",
 };
+
 export default Button;

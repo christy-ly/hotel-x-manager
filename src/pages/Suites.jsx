@@ -1,8 +1,12 @@
+import { useState } from "react";
 import SuiteTable from "../ui/Suites/SuiteTable";
 import Heading from "../ui/Heading";
 import Row from "../ui/Row";
+import Button from "../ui/Button";
+import CreateSuiteForm from "../ui/Suites/CreateSuiteForm";
 
 function Suites() {
+  const [showForm, setShowForm] = useState(false);
   return (
     <>
       <Row type="horizontal">
@@ -18,6 +22,11 @@ function Suites() {
       </Row>
       <Row>
         <SuiteTable />
+
+        <Button onClick={() => setShowForm(!showForm)}>
+          {showForm ? "Close Form" : "Create a Suite"}
+        </Button>
+        {showForm && <CreateSuiteForm onCancel={() => setShowForm(false)} />}
       </Row>
     </>
   );

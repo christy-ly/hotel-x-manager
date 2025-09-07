@@ -29,6 +29,8 @@ CREATE TABLE suites
     code VARCHAR(100) NOT NULL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     maxCapacity INT NOT NULL,
+    minRoomSizeFt NUMERIC(6,2),
+    maxRoomSizeFt NUMERIC(6,2),
     price NUMERIC(10,2) NOT NULL,
     discount NUMERIC(5,2) DEFAULT 0,
     image TEXT,

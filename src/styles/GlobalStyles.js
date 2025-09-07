@@ -5,27 +5,29 @@ const GlobalStyles = createGlobalStyle`
 :root {
 
     --color-border-black: #333;
-    --color-border-white: #fff;
+    --color-border-white: #FFFFFF;
     --color-border-golden: #e0aa14;
 
     --color-text-black: #333;
-    --color-text-white: #fff;
+    --color-text-white: #FFFFFF;
+    --color-text-error: #991b1b;
 
     --color-bg-black: #333;
-    --color-bg-white: #ccc;
+    --color-bg-white: #FFFFFF;
+    --color-bg-ivory: #ccc;
 
     --diabaled-bg: #ccc;
     --diabaled-color: #fff;
     --diabaled-dark-bg: #f5f5f5;
     --diabaled-dark-color: rgba(0, 0, 0, 0.25);
 
-    --color-primary-color: #e0aa14;
+    --color-primary-normal: #e0aa14;
     --color-primary-active: #cc9a0d;
     --color-primary-hover: #f6bc19;
 
-    --color-primary-color: #e0aa14;
-    --color-primary-active: #cc9a0d;
-    --color-primary-hover: #f6bc19;
+
+    --color-form-label: #9ca3af;
+    --font-size-form: 1rem;
 
     /* Grey */
     --color-grey-0: #fffff;
@@ -53,6 +55,16 @@ const GlobalStyles = createGlobalStyle`
     --border-radius-md: 7px;
     --border-radius-lg: 9px;
 
+    // font-family
+    --font-button: "Trebuchet MS", Arial, sans-serif;
+    --font-form-label: "Trebuchet MS", Arial, sans-serif;
+    --font-header-h1: "Minion Regular", Georgia, serif;
+    --font-header-h2: "Minion Regular", Georgia, serif;
+    --font-header-h3: "Minion Regular", Georgia, serif;
+    --font-header-dialog: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    --font-table-header:"Sono";
+    --font-table-row:"Sono"
 }
 *,
 *::before,
@@ -69,7 +81,7 @@ html {
 }
 
 body {
-    font-family: "Montserrat", "Verdana", "Helvetica", "Arial", "sans-serif";
+    font-family: "Trebuchet MS", Arial, sans-serif;
     background: var(--color-bg-ivory);
     color: var(--color-dark);
     transition: color 0.3s, background-color 0.3s;

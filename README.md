@@ -10,12 +10,17 @@ This project is a modern and professional hotel reservation website built with J
 - **Authentication:** NextAuth.js (JWT & OAuth support)
 - **Styling & UI:** Tailwind CSS, Bootstrap
 
-## Features
+## Tools
 ### Frontend Development
-- Use **styled-components** for modular, reusable, and scoped UI styling
+- Use **styled-components** for modular, reusable, and scoped UI styling  
+- Use **React Hook Form** for form handling and validation  
+- Use **React Toastify** for elegant and customizable toast notifications  
 
 ### Database / Data Handling
-- Use **React Query** to fetch, cache, and manage server-side data efficiently
+- Use **React Query** to fetch, cache, and manage server-side data efficiently 
+
+## 📽️View Demo
+Check out the live demo of this project here: [View Demo](https://christy-demo-hotel-x.netlify.app//)
 
 ## 📄 Documentation
 - **Project requirements** - [Requirements Document](./docs/Requirements.md)
@@ -26,6 +31,8 @@ This project is a modern and professional hotel reservation website built with J
 - **styled-components** – [Official Documentation](https://styled-components.com/docs)
 - **React** – [React Docs](https://react.dev/)
 - **React Query** – [React Query Docs](https://tanstack.com/query/latest)
+- **React Toast** – [React Toast Docs](https://react-hot-toast.com/)
+- **React Hook** – [React Hook Docs](https://react-hook-form.com/)
 - **Redux** – [Redux Docs](https://redux.js.org/introduction/getting-started)
 - **Supabase** – [Official Documentation](https://supabase.com/docs)
 - **Photo Source** – [Unsplash](https://unsplash.com)

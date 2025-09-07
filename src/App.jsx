@@ -12,6 +12,7 @@ import PageNotFound from "./pages/PageNotFound";
 import GlobalStyles from "./styles/GlobalStyles";
 import AppLayout from "./ui/AppLayout";
 import Guests from "./pages/Guests";
+import { Toaster } from "react-hot-toast";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -26,15 +27,16 @@ function App() {
     <>
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools initialIsOpen={true} />
+
         <GlobalStyles />
         <BrowserRouter>
           <Routes>
             <Route element={<AppLayout />}>
               <Route path="/" element={<Dashboard />} />
               <Route path="dashboard" element={<Dashboard />} />
+              <Route path="suites" element={<Suites />} />
               <Route path="Reservations" element={<Reservations />} />
               <Route path="account" element={<Account />} />
-              <Route path="suites" element={<Suites />} />
               <Route path="guests" element={<Guests />} />
               <Route path="users" element={<Users />} />
               <Route path="settings" element={<Settings />} />
@@ -43,6 +45,27 @@ function App() {
             <Route path="login" element={<Login />} />
           </Routes>
         </BrowserRouter>
+        <Toaster
+          position="top-center"
+          gutter={12}
+          containerStyle={{ margin: "8px" }}
+          toastOptions={{
+            success: {
+              duration: 5000,
+              error: {
+                duration: 5000,
+              },
+              style: {
+                backgroundColor: "var(--color-bg-white)",
+                color: "var(--color-text-black)",
+                border: "1px solid var(--color-primary-normal)",
+                fontsize: "16px",
+                maxWidth: "500px",
+                padding: "16px 24px",
+              },
+            },
+          }}
+        ></Toaster>
       </QueryClientProvider>
     </>
   );

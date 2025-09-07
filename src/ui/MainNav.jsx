@@ -58,18 +58,18 @@ function MainNav() {
           </StyledNavLink>
         </li>
         <li>
+          <StyledNavLink to="/suites">
+            <HiOutlineStar />
+            Rooms & Suites
+          </StyledNavLink>
+        </li>
+        <li>
           <StyledNavLink to="/reservations">
-            {" "}
             <HiCalendar />
             Reservations
           </StyledNavLink>
         </li>
-        <li>
-          <StyledNavLink to="/suites">
-            <HiOutlineStar />
-            Suites
-          </StyledNavLink>
-        </li>
+
         <li>
           <StyledNavLink to="/guests">
             <HiOutlineIdentification />
