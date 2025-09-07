@@ -1,9 +1,9 @@
 import { useState } from "react";
-import SuiteTable from "../ui/Suites/SuiteTable";
-import Heading from "../ui/Heading";
-import Row from "../ui/Row";
-import Button from "../ui/Button";
-import CreateSuiteForm from "../ui/Suites/CreateSuiteForm";
+import SuiteTable from "../components/Suites/SuiteTable";
+import Heading from "../components/Heading";
+import Row from "../components/Row";
+import Button from "../components/Button";
+import CreateSuiteForm from "../components/Suites/CreateSuiteForm";
 
 function Suites() {
   const [showForm, setShowForm] = useState(false);

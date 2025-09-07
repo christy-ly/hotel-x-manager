@@ -1,4 +1,4 @@
-import Heading from "../ui/Heading";
+import Heading from "../components/Heading";
 
 function Guests() {
   return <Heading as="h1">Guests page</Heading>;

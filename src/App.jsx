@@ -10,7 +10,7 @@ import Settings from "./pages/Settings";
 import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import GlobalStyles from "./styles/GlobalStyles";
-import AppLayout from "./ui/AppLayout";
+import AppLayout from "./components/AppLayout";
 import Guests from "./pages/Guests";
 import { Toaster } from "react-hot-toast";
 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ErrorLabel from "../../ui/ErrorLabel";
+import ErrorLabel from "../../components/ErrorLabel";
 
 const StyledFormRow = styled.div`
   display: grid;

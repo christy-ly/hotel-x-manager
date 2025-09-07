@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Button from "./Button";
-import ErrorLabel from "../ui/ErrorLabel";
+import ErrorLabel from "./ErrorLabel";
 import { useState, useEffect } from "react";
 import { sysAccessCode } from "../configs/env";
 

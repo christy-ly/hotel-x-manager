@@ -3,12 +3,12 @@ import useCreateSuite from "./hooks/useCreateSuite";
 import useEditSuite from "./hooks/useEditSuite";
 import { findAllCodes } from "../../api/apiSuites";
 import toast from "react-hot-toast";
-import Input from "../Form/Input";
-import Form from "../Form/Form";
+import Input from "../../components/Form/Input";
+import Form from "../../components/Form/Form";
 import Button from "../Button";
-import FileInput from "../Form/FileInput";
-import Textarea from "../Form/Textarea";
-import FormRow from "../Form/FormRow";
+import FileInput from "../../components/Form/FileInput";
+import Textarea from "../../components/Form/Textarea";
+import FormRow from "../../components/Form/FormRow";
 
 function CreateSuiteForm({ suiteToEdit = {}, onCancel }) {
   // Check if it is editing
@@ -93,7 +93,7 @@ function CreateSuiteForm({ suiteToEdit = {}, onCancel }) {
       </FormRow>
 
       <FormRow
-        label={"Maximum Size (ft)"}
+        label={"Minimum Size (ft)"}
         errorMsg={formErrors?.minroomsizeft?.message}
       >
         <Input
