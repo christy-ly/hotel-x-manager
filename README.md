@@ -1,14 +1,13 @@
-<h3 align="center">🏨 Hotel X – A Hotel Reservation Website</h3>
+<h3 align="center">🏨 Hotel X Manager – A Hotel Management Portal</h3>
 
 ## 💬 Overview
-This project is a modern and professional hotel reservation website built with JavaScript, React, TailwindCSS, Redux and Next.js.
+This project is a modern and professional hotel reservation platform built with React. It provides hotel staff with an intuitive interface to manage rooms, reservations, and operations efficiently.
 
 ## 🛠 Tech Stack
-- **Frontend:** React, JavaScript, HTML5, CSS
-- **Backend:** Next.js
-- **Database:** PostgreSQL via Supabase
-- **Authentication:** NextAuth.js (JWT & OAuth support)
-- **Styling & UI:** Tailwind CSS, Bootstrap
+- **Frontend:** React, JavaScript, React Query, React Hook Form  
+- **Styling & UI:** Styled Components  
+- **Database & Backend:** PostgreSQL via Supabase  
+- **State/Data Management:** React Query  
 
 ## Tools
 ### Frontend Development
