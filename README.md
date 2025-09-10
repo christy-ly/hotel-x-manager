@@ -1,4 +1,4 @@
-<h3 align="center">⚙️ Hotel X Manager – A Hotel Management Portal</h3>
+<h3 align="center">⚙️ Hotel Manager – A Hotel Management Portal</h3>
 
 ## 💬 Overview
 This project is a clean and professional hotel management portal built with JavaScript and React. It features an intuitive interface, modular components, and efficient tools for managing reservations and rooms, providing staff with a seamless workflow for daily operations.
@@ -20,7 +20,7 @@ This project is a clean and professional hotel management portal built with Java
 - Use **React Query** to fetch, cache, and manage server-side data efficiently 
 
 ## 📽️View Demo
-Check out the live demo of this project here: [View Demo](https://christy-demo-hotel-x-manager.netlify.app/)
+Check out the live demo of this project here: [View Demo](https://christy-demo-hotel-manager.netlify.app/)
 
 ## 📄 Documentation
 - **Project requirements** - [Requirements Document](./docs/Requirements.md)
